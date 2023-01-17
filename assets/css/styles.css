@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Ubuntu Regular";
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+body{
+    font-family: "Ubuntu Regular", "Segoe UI", sans-serif;
+}
+
+.font-ubuntu-r{
+    font-family: "Ubuntu Regular";
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -47,4 +59,21 @@
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+}
+.text-bg-orange
+{
+    color: #fff;
+    background-color: #ff7300;
+}
+.btn-orange
+{
+    color: #fff;
+    background-color: #ff7300;
+}
+.btn-orange:hover,
+.btn-orange:active{
+    color: #000;
+    background-color: #e59e03;
+    font-weight: 700;
+    border: 2px solid #000;
 }
